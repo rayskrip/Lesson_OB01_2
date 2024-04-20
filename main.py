@@ -47,14 +47,17 @@ class Store():
 store1 = Store("Веган", "ул. Абрикосовая, 1")
 store1.add_item("яблоки", 120)
 store1.add_item("бананы", 150)
+store1.add_item("груши", 170)
 
 store2 = Store("Мясные продукты", "ул. Мясницкая, 10")
 store2.add_item("говядина", 1000)
 store2.add_item("курица", 700)
+store2.add_item("индейка", 800)
 
 store3 = Store("Молоко", "ул. Молочная, 5")
 store3.add_item("молоко", 100)
 store3.add_item("сыр", 1200)
+store3.add_item("масло", 150)
 
 # Тест
 print(f"Товары в {store1.name}: {store1.items}")
